@@ -20,4 +20,4 @@ for file in $files; do
     ln -s $dir/$file ~/$file
 done
 
-source ~/.vimrc
+vim +source ~/.vimrc +qall
