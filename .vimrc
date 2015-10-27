@@ -21,6 +21,7 @@ set tabstop=2 shiftwidth=2 expandtab
 set number
 set rnu
 inoremap kj <esc>
+inoremap jk <esc>
 inoremap fj <CR><CR>end<Esc>-cc
 autocmd FileType * set tabstop=2|set shiftwidth=2|set expandtab
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
