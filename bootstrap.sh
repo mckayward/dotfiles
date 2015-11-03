@@ -20,4 +20,5 @@ for file in $files; do
     ln -s $dir/$file ~/$file
 done
 
+# install the plugins listed in the .vimrc
 vim +source ~/.vimrc +PluginInstall +qall
