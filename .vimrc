@@ -2,23 +2,11 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Bundle 'VundleVim/Vundle.vim'
-Bundle 'vim-ruby/vim-ruby'
-
-" Whitespace highlighter
-Bundle 'ntpeters/vim-better-whitespace'
-Bundle 'tpope/vim-rails'
-
-call vundle#end()
-
-
 filetype plugin indent on
 
-" Set solarized-dark as  the color scheme
 execute pathogen#infect()
+
+" Set solarized-dark as  the color scheme
 syntax enable
 set background=dark
 colorscheme solarized
