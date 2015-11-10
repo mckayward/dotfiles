@@ -19,6 +19,3 @@ for file in $files; do
     echo "Creating symlink to $file in home directory"
     ln -s $dir/$file ~/$file
 done
-
-# install the plugins listed in the .vimrc
-vim +source ~/.vimrc +PluginInstall +qall
