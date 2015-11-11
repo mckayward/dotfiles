@@ -5,23 +5,31 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Bundle 'VundleVim/Vundle.vim'
-Bundle 'vim-ruby/vim-ruby'
+" Required plugin for Vundle
+Plugin 'VundleVim/Vundle.vim'
+
+" Ruby and rails shortcuts and syntax highlighting
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
 
 " Whitespace highlighter
-Bundle 'ntpeters/vim-better-whitespace'
-Bundle 'tpope/vim-rails'
+Plugin 'ntpeters/vim-better-whitespace'
+
+" Automatic Pairing of {}, (), '', "", etc.
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'tpope/vim-surround'
+
+" File navigation
+Plugin 'scrooloose/nerdtree'
 
 call vundle#end()
-
 
 filetype plugin indent on
 
 " Set solarized-dark as  the color scheme
-execute pathogen#infect()
-syntax enable
+" execute pathogen#infect()
+syntax on
 set background=dark
-colorscheme solarized
 
 " Show current line number and relative line number
 set number
