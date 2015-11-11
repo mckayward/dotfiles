@@ -30,6 +30,7 @@ filetype plugin indent on
 " execute pathogen#infect()
 syntax on
 set background=dark
+colorscheme solarized
 
 " Show current line number and relative line number
 set number
