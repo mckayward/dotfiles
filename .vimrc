@@ -1,4 +1,3 @@
-" Setup Vundle
 set nocompatible
 filetype off
 
