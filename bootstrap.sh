@@ -21,4 +21,5 @@ for file in $files; do
 done
 
 # install the plugins listed in the .vimrc
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +source ~/.vimrc +PluginInstall +qall
