@@ -24,7 +24,11 @@ inoremap fj <CR><CR>end<Esc>-cc
 " Default to tab == two spaces
 autocmd FileType * set tabstop=2|set shiftwidth=2|set expandtab
 
+autocmd FileType md set noexpandtab
+
 " Tab == four spaces for Python
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
 
 autocmd FileType ruby compiler ruby
+
+let NERDTreeShowHidden=1
