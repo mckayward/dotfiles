@@ -36,6 +36,9 @@ colorscheme solarized
 set number
 set rnu
 
+" Ensure backspace clears line breaks
+set backspace=indent,eol,start
+
 " Set my preferred alternatives to the <esc> button
 inoremap kj <esc>
 inoremap jk <esc>
