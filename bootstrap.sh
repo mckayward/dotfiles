@@ -23,3 +23,7 @@ done
 # install the plugins listed in the .vimrc
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +source ~/.vimrc +PluginInstall +qall
+
+# remove .git from all plugins
+echo "Removing .git from all vim plugins"
+rm -rf $dir/.vim/bundle/*/.git*

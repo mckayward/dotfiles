@@ -22,6 +22,9 @@ Plugin 'tpope/vim-surround'
 " File navigation
 Plugin 'scrooloose/nerdtree'
 
+" HTML stuff
+Plugin 'mattn/emmet-vim'
+
 call vundle#end()
 
 filetype plugin indent on
