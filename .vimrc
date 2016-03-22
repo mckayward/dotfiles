@@ -21,9 +21,12 @@ Plugin 'tpope/vim-surround'
 
 " File navigation
 Plugin 'scrooloose/nerdtree'
+Plugin 'skwp/greplace'
 
 " HTML stuff
 Plugin 'mattn/emmet-vim'
+Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'othree/html5.vim'
 
 call vundle#end()
 
@@ -45,14 +48,16 @@ set backspace=indent,eol,start
 " Set my preferred alternatives to the <esc> button
 inoremap kj <esc>
 inoremap jk <esc>
+map <F2> :NERDTreeToggle<CR>
 
 " Map automated addition of 'end' statement for Ruby
 inoremap fj <CR><CR>end<Esc>-cc
 
 " Default to tab == two spaces
-autocmd FileType * set tabstop=2|set shiftwidth=2|set expandtab
+autocmd FileType * set tabstop=4|set shiftwidth=4|set expandtab
 
 " Tab == four spaces for Python
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
+autocmd FileType hbs set tabstop=4|set shiftwidth=4|set expandtab
 
 autocmd FileType ruby compiler ruby
