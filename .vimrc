@@ -53,10 +53,11 @@ map <F2> :NERDTreeToggle<CR>
 " Map automated addition of 'end' statement for Ruby
 inoremap fj <CR><CR>end<Esc>-cc
 
-" Default to tab == two spaces
+" Default to tab == four spaces
 autocmd FileType * set tabstop=4|set shiftwidth=4|set expandtab
 
-" Tab == four spaces for Python
+" Language specific tab width
+autocmd FileType ruby set tabstop=2|set shiftwidth=2|set expandtab
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
 autocmd FileType hbs set tabstop=4|set shiftwidth=4|set expandtab
 
