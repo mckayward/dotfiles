@@ -15,18 +15,23 @@ Plugin 'tpope/vim-rails'
 " Whitespace highlighter
 Plugin 'ntpeters/vim-better-whitespace'
 
+" Easy swapping of function parameters
+Plugin 'mutewinter/swap-parameters'
+
 " Automatic Pairing of {}, (), '', "", etc.
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'tpope/vim-surround'
 
 " File navigation
 Plugin 'scrooloose/nerdtree'
-Plugin 'skwp/greplace'
 
 " HTML stuff
 Plugin 'mattn/emmet-vim'
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'othree/html5.vim'
+
+" Autocompletion with Tab
+Plugin 'ervandew/supertab'
 
 call vundle#end()
 
