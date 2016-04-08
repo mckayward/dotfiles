@@ -67,3 +67,5 @@ autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
 autocmd FileType hbs set tabstop=4|set shiftwidth=4|set expandtab
 
 autocmd FileType ruby compiler ruby
+
+set mouse=a
