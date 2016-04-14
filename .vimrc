@@ -24,6 +24,8 @@ Plugin 'tpope/vim-surround'
 
 " File navigation
 Plugin 'scrooloose/nerdtree'
+Plugin 'ctrlpvim/ctrlp'
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 " HTML stuff
 Plugin 'mattn/emmet-vim'
@@ -64,7 +66,6 @@ autocmd FileType * set tabstop=4|set shiftwidth=4|set expandtab
 " Language specific tab width
 autocmd FileType ruby set tabstop=2|set shiftwidth=2|set expandtab
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
-autocmd FileType hbs set tabstop=4|set shiftwidth=4|set expandtab
 
 autocmd FileType ruby compiler ruby
 
