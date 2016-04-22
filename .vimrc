@@ -21,6 +21,7 @@ Plugin 'mutewinter/swap-parameters'
 " Automatic Pairing of {}, (), '', "", etc.
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-repeat'
 
 " File navigation
 Plugin 'scrooloose/nerdtree'
