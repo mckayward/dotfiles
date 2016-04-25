@@ -1,0 +1,10 @@
+[core]
+	editor = vim
+[alias]
+	s = status
+	d = diff
+	b = branch
+	ds = diff --staged
+	c = checkout
+[push]
+	default = simple
