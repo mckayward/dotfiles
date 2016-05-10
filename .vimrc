@@ -48,7 +48,6 @@ colorscheme solarized
 
 " Show current line number and relative line number
 set number
-set rnu
 
 " Ensure backspace clears line breaks
 set backspace=indent,eol,start
