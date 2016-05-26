@@ -55,6 +55,14 @@ set backspace=indent,eol,start
 " Set my preferred alternatives to the <esc> button
 inoremap kj <esc>
 inoremap jk <esc>
+
+" Simplify saving
+:command W w
+:command Q q
+:command WQ wq
+:command Wq wq
+:command wQ wq
+
 map <F2> :NERDTreeToggle<CR>
 
 " Map automated addition of 'end' statement for Ruby
