@@ -61,7 +61,6 @@ inoremap jk <esc>
 :command Q q
 :command WQ wq
 :command Wq wq
-:command wQ wq
 
 map <F2> :NERDTreeToggle<CR>
 
