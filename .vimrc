@@ -46,7 +46,7 @@ syntax on
 set background=dark
 colorscheme solarized
 
-" Show current line number and relative line number
+" Show current line number
 set number
 
 " Ensure backspace clears line breaks
