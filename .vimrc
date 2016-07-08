@@ -5,11 +5,6 @@ filetype plugin indent on
 
 execute pathogen#infect()
 
-" Set solarized-dark as  the color scheme
-syntax enable
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
 filetype plugin indent on
 
 " Set solarized-dark as  the color scheme
@@ -40,13 +35,13 @@ map <F2> :NERDTreeToggle<CR>
 inoremap fj <CR><CR>end<Esc>-cc
 
 " Default to tab == two spaces
-autocmd FileType * set tabstop=2|set shiftwidth=4|set expandtab
+autocmd FileType * set tabstop=2|set shiftwidth=2|set expandtab
 
 autocmd FileType md set noexpandtab
 
-" Tab == four spaces for Python
 " Language specific tab width
 autocmd FileType ruby set tabstop=2|set shiftwidth=2|set expandtab
+autocmd FileType json set tabstop=2|set shiftwidth=2|set expandtab
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
 autocmd FileType html set tabstop=4|set shiftwidth=4|set expandtab
 
