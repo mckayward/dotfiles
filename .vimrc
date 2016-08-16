@@ -30,6 +30,7 @@ inoremap jk <esc>
 :command Wq wq
 
 map <F2> :NERDTreeToggle<CR>
+map <C-j> ciw<C-r>0<ESC>
 
 " Map automated addition of 'end' statement for Ruby
 inoremap fj <CR><CR>end<Esc>-cc
