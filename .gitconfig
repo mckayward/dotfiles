@@ -6,6 +6,6 @@
 	b = branch
 	ds = diff --staged
 	c = checkout
-    l = log --graph --oneline --decorate --all
+  l = log --graph --oneline --decorate --all
 [push]
 	default = simple

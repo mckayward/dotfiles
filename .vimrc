@@ -61,6 +61,7 @@ autocmd FileType ruby set tabstop=2|set shiftwidth=2|set expandtab
 autocmd FileType json set tabstop=2|set shiftwidth=2|set expandtab
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
 autocmd FileType html set tabstop=4|set shiftwidth=4|set expandtab
+autocmd FileType java set tabstop=4|set shiftwidth=4|set expandtab
 
 autocmd FileType ruby compiler ruby
 
