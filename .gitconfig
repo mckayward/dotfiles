@@ -1,11 +1,11 @@
 [core]
-	editor = vim
+  editor = vim
 [alias]
-	s = status
-	d = diff
-	b = branch
-	ds = diff --staged
-	c = checkout
+  s = status
+  d = diff
+  b = branch
+  ds = diff --staged
+  c = checkout
   l = log --graph --oneline --decorate --all
 [push]
-	default = simple
+  default = simple
