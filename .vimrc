@@ -10,8 +10,7 @@ filetype plugin indent on
 " Set solarized-dark as  the color scheme
 " execute pathogen#infect()
 syntax on
-set background=dark
-colorscheme solarized
+colorscheme base16-default-dark
 
 " Show current line number
 set number
