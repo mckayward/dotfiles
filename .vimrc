@@ -6,10 +6,12 @@ filetype plugin indent on
 execute pathogen#infect()
 
 filetype plugin indent on
-
-" Set solarized-dark as  the color scheme
-" execute pathogen#infect()
 syntax on
+
+" Set colorscheme
+let base16colorspace=256 " Access colors present in 256 colorspace
+set t_Co=256 " 256 color mode
+set background=dark
 colorscheme base16-default-dark
 
 " Show current line number
