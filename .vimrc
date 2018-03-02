@@ -3,7 +3,18 @@ filetype off
 
 filetype plugin indent on
 
-execute pathogen#infect()
+call plug#begin('~/.vim/plugged')
+Plug 'kien/ctrlp.vim'
+Plug 'tpope/vim-rails'
+Plug 'jiangmiao/auto-pairs'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
+Plug 'ntpeters/vim-better-whitespace'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'ervandew/supertab'
+call plug#end()
 
 filetype plugin indent on
 syntax on
